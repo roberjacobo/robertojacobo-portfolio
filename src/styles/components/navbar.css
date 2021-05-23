@@ -1,0 +1,68 @@
+.navbar-container {
+  width: 100%;
+  background-color: #53354a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #e84545;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  margin: 3% 0% 3% 0%;
+}
+
+button {
+  margin: 0% 1% 0% 1%;
+  width: 150px;
+  background-color: #2b2e4a;
+  border: none;
+  color: #e84545;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  transition: .2s;
+}
+
+button:hover {
+  background-color: #2b2e4a85;
+  color: #e72a2a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  transition: .3s;
+}
+
+
+@media screen and (max-width: 600px) {
+  button {
+    margin: 2% 0.5% 2% 0.5%;
+    width: 90px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  button:hover {
+    margin: 2% 0.5% 2% 0.5%;
+    width: 90px;
+    padding: 5px 15px;
+    font-size: 10px;
+  }
+
+  .list-container {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0% 3% 0%;
+  }
+
+}

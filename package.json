@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Roberto Jacobo Portfolio",
-  "author": "Rober",
+  "author": "Roberto Jacobo",
   "keywords": [
     "gatsby"
   ],
@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "gatsby": "^3.4.1",
+    "gatsby-plugin-sass": "^4.5.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

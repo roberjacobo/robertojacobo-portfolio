@@ -4778,24 +4778,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*********************************************************************************************************!*\
-  !*** external "D:\\Proyectos\\Portafolio\\robertojacobo-portfolio\\node_modules\\react-dom\\server.js" ***!
-  \*********************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** external "D:\\Proyectos\\Portafolio\\roberto-jacobo-portfolio\\node_modules\\react-dom\\server.js" ***!
+  \**********************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("D:\\Proyectos\\Portafolio\\robertojacobo-portfolio\\node_modules\\react-dom\\server.js");;
+module.exports = require("D:\\Proyectos\\Portafolio\\roberto-jacobo-portfolio\\node_modules\\react-dom\\server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!****************************************************************************************************!*\
-  !*** external "D:\\Proyectos\\Portafolio\\robertojacobo-portfolio\\node_modules\\react\\index.js" ***!
-  \****************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** external "D:\\Proyectos\\Portafolio\\roberto-jacobo-portfolio\\node_modules\\react\\index.js" ***!
+  \*****************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("D:\\Proyectos\\Portafolio\\robertojacobo-portfolio\\node_modules\\react\\index.js");;
+module.exports = require("D:\\Proyectos\\Portafolio\\roberto-jacobo-portfolio\\node_modules\\react\\index.js");;
 
 /***/ })
 

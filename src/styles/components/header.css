@@ -1,0 +1,113 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-wallpaper-container {
+  width: 460px;
+  height: 400px;
+  margin: 2% 0% 0% 3%;
+  background: url('../../images/IMG_3483_1.webp') no-repeat;
+  position: relative;
+  background-position: center;
+  border-radius: 100%;
+  -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.055);
+  box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.459);
+  transition: 1s;
+}
+
+.header-wallpaper-container:hover {
+  width: 475px;
+  height: 410px;
+  margin: 2% 0% 0% 3%;
+  transition-timing-function: ease;
+}
+
+h1 {
+  margin: 10% 0% 0% 5%;
+  width: 100%;
+  font-size: 450%;
+  color: hsl(0, 0%, 100%);
+}
+
+h3 {
+  margin: 0% 10% 0% 5%;
+  width: 100%;
+  font-size: 200%;
+  color: hsla(208, 100%, 97%, 0.733);
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  margin: 15% 10% 5% 5%;
+  font-size: 200%;
+  color: hsl(0, 0%, 100%);
+}
+
+.templates-literals {
+  margin: 0% 0% 0% 0%;
+  font-size: 100%;
+  color: rgb(245, 255, 101);
+}
+
+.names-container {
+  width: 63%;
+  background-color: #20151d;
+  -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.055);
+  box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.459);
+  margin: 3% 3% 2% 3%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .header-wallpaper-container {
+    width: 150px;
+    border-radius: 20px;
+    height: 250px;
+    margin: 10px 0px 0px 20px;
+  }
+
+  h1 {
+    font-size: 190%;
+    width: 150px;
+    margin: 5% 0% 0% 10%;
+  }
+
+  h3 {
+    font-size: 70%;
+    margin: -2% 0% 0% 10%;
+  }
+
+  p {
+    display: flex;
+    flex-direction: row;
+    margin: 55% 10% 10% 5%;
+    font-size: 70%;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .templates-literals {
+    margin: 0% 0% 10% 0%;
+    font-size: 100%;
+    color: rgb(245, 255, 101);
+  }
+
+  .names-container {
+    width: 50%;
+    background-color: #20151d;
+    -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.055);
+    box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.459);
+    margin: 3% 5% 2% 5%;
+  }
+}
