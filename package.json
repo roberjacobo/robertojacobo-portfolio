@@ -1,0 +1,24 @@
+{
+  "name": "roberto-jacobo-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roberto Jacobo Portfolio",
+  "author": "Roberto Jacobo",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.4.1",
+    "gatsby-plugin-sass": "^4.5.0",
+    "node-sass": "^6.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
