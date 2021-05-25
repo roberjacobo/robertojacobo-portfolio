@@ -1,6 +1,8 @@
 import React from "react"
 import Header from '../pages/components/header'
 import About from '../pages/components/about'
+import Whatido from '../pages/components/whatido'
+import "../styles/index.css"
 
 // markup
 const App = () => {
@@ -9,6 +11,9 @@ const App = () => {
       <Header />
       <div>
         <About />
+      </div>
+      <div>
+        <Whatido />
       </div>
     </div>
   )

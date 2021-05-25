@@ -44,8 +44,9 @@ h2 {
   }
 
   h2 {
-    margin: 5px 5px 1px 10px;
+    margin: 5px 0px 1px 10px;
     font-size: 400%;
+    width: 90%;
   }
 
   .linea {

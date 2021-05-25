@@ -3,5 +3,21 @@ body {
   padding: 0;
   font-family: 'Roboto Condensed',
     sans-serif;
-  background-color: #2b2e4a;
+  background: linear-gradient(-45deg, #e84545, #2b2e4a, #903749, #53354a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
 }
