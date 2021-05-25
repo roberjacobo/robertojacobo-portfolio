@@ -5,9 +5,10 @@
 
 .header-wallpaper-container {
   width: 460px;
-  height: 400px;
+  height: 460px;
   margin: 2% 0% 0% 3%;
-  background: url('../../images/IMG_3483_1.webp') no-repeat;
+  background: url('../../images/IMG_3800.webp') no-repeat;
+  background-size: cover;
   position: relative;
   background-position: center;
   border-radius: 100%;
@@ -19,7 +20,7 @@
 
 .header-wallpaper-container:hover {
   width: 475px;
-  height: 410px;
+  height: 475px;
   margin: 2% 0% 0% 3%;
   transition-timing-function: ease;
 }

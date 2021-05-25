@@ -3,17 +3,20 @@ import "../../styles/components/whatido.css";
 
 const Whatido = () => {
   return (
-    <div className="whatido-container">
-      <div>
-        <h2>Frontend</h2>
+    <>
+      <h2>What I Do</h2>
+      <div className="whatido-container">
+        <div className="skills-container">
+          <h2>Frontend</h2>
+        </div>
+        <div className="skills-container">
+          <h2>Backend</h2>
+        </div>
+        <div className="skills-container">
+          <h2>Skills</h2>
+        </div>
       </div>
-      <div>
-        <h2>Backend</h2>
-      </div>
-      <div>
-        <h2>Skills</h2>
-      </div>
-    </div>
+    </>
   );
 };
 

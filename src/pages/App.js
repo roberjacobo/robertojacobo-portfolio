@@ -2,6 +2,7 @@ import React from "react"
 import Header from '../pages/components/header'
 import About from '../pages/components/about'
 import Whatido from '../pages/components/whatido'
+import "../styles/index.css"
 
 // markup
 const App = () => {

@@ -5,7 +5,7 @@ import "../../styles/components/header.css"
 const Header = () => {
 
   var myname = "<Roberto Jacobo />"
-  var job = "Full Stack"
+  var job = "Full-Stack";
   var x = "`${"
   var y = "}`"
   return (
