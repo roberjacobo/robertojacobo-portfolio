@@ -2,5 +2,5 @@ module.exports = {
   siteMetadata: {
     title: "Roberto Jacobo Portfolio"
   },
-  plugins: []
+  plugins: [`gatsby-plugin-gatsby-cloud`]
 };
