@@ -51,7 +51,6 @@
     position: relative;
     background-position: contain;
     transition: 1s;
-    z-index: 2;
   }
 
   .gatsby-container {
@@ -62,7 +61,6 @@
     position: relative;
     background-position: contain;
     transition: 1s;
-    z-index: 2;
   }
 
   .github-container {
@@ -227,7 +225,6 @@
           position: relative;
           background-position: contain;
           transition: 1s;
-          z-index: 2;
         }
 
         .gatsby-container {
@@ -238,7 +235,6 @@
           position: relative;
           background-position: contain;
           transition: 1s;
-          z-index: 2;
         }
 
         .github-container {
@@ -344,5 +340,5 @@
         position: relative;
         background-position: contain;
         transition: 1s;
-      }
+        }
       }
