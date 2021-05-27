@@ -3,9 +3,10 @@ import "../../styles/components/about.css";
 
 const About = () => {
   return (
+    <>
+    <h2>About me</h2>
     <div className="about-container">
       <div>
-        <h2>About me</h2>
         <div class="linea"></div>
         <p className="description">
           My name is Roberto Jacobo, I'm a Full-Stack Software Developer based
@@ -19,6 +20,7 @@ const About = () => {
         <div class="linea"></div>
       </div>
     </div>
+    </>
   );
 };
 
