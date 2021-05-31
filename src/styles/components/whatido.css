@@ -182,7 +182,7 @@
         color: #181a2e;
         margin: 1px -5px 0px 3px;
       }
-      
+
       .skills-container {
         display: flex;
         flex-direction: row;
@@ -284,7 +284,6 @@
           background: url('../../images/java-logo.png') no-repeat;
           background-size: 100px auto;
           position: relative;
-          background-position: contain;
           transition: 1s;
         }
 
