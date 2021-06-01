@@ -7,7 +7,7 @@ const About = () => {
     <h2>About me</h2>
     <div className="about-container">
       <div>
-        <div class="linea"></div>
+        <div className="linea"></div>
         <p className="description">
           My name is Roberto Jacobo, I'm a Full-Stack Software Developer based
           in Michoacán, Mexico. I'm a passionate and dedicated to my work. With
@@ -17,7 +17,7 @@ const About = () => {
           that loyalty and innovate ideas are the most important characteristics
           to building a team that reaches greatness.
         </p>
-        <div class="linea"></div>
+        <div className="linea"></div>
       </div>
     </div>
     </>

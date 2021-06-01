@@ -281,16 +281,17 @@
         .java-container {
           width: 100px;
           height: 120px;
-          background: url('../../images/java-logo.png') no-repeat;
+          background: url('../../images/Java-logo.png') no-repeat;
           background-size: 100px auto;
           position: relative;
+          background-position: contain;
           transition: 1s;
         }
 
         .javascript-container {
           width: 35px;
           height: 35px;
-          background: url('../../images/javaScript-logo.png') no-repeat;
+          background: url('../../images/JavaScript-logo.png') no-repeat;
           background-size: 35px auto;
           position: relative;
           background-position: contain;
