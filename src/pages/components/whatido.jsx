@@ -20,8 +20,8 @@ const Whatido = () => {
           <div className="css-container"></div>
           <div className="html-container"></div>
           <div className="bootstrap-container"></div>
-          <div className="java-container"></div>
           <div className="sql-container"></div>
+          <div className="java-container"></div>
         </div>
       </div>
     </>
