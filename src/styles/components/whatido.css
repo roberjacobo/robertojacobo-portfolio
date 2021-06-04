@@ -66,7 +66,7 @@
   .github-container {
     width: 100px;
     height: 60px;
-    background: url('../../images/GitHub-Logo.png') no-repeat;
+    background: url('../../images/GitHubLogo.png') no-repeat;
     background-size: 100px auto;
     position: relative;
     background-position: contain;
@@ -76,7 +76,7 @@
   .google-cloud-container {
     width: 220px;
     height: 80px;
-    background: url('../../images/Google-Cloud-Logo.png') no-repeat;
+    background: url('../../images/GoogleCloudLogo.png') no-repeat;
     background-size: 200px auto;
     position: relative;
     background-position: contain;
@@ -107,7 +107,7 @@
   .java-container {
     width: 200px;
     height: 130px;
-    background: url('../../images/java-logo.png') no-repeat;
+    background: url('../../images/javalogo.png') no-repeat;
     background-size: 200px auto;
     position: relative;
     background-position: contain;
@@ -240,7 +240,7 @@
         .github-container {
           width: 70px;
           height: 60px;
-          background: url('../../images/GitHub-Logo.png') no-repeat;
+          background: url('../../images/GitHubLogo.png') no-repeat;
           background-size: 60px auto;
           position: relative;
           background-position: contain;
@@ -250,7 +250,7 @@
         .google-cloud-container {
           width: 120px;
           height: 80px;
-          background: url('../../images/Google-Cloud-Logo.png') no-repeat;
+          background: url('../../images/GoogleCloudLogo.png') no-repeat;
           background-size: 120px auto;
           position: relative;
           background-position: contain;
@@ -281,7 +281,7 @@
         .java-container {
           width: 100px;
           height: 120px;
-          background: url('../../images/java-logo.png') no-repeat;
+          background: url('../../images/javalogo.png') no-repeat;
           background-size: 100px auto;
           position: relative;
           background-position: contain;
