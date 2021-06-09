@@ -13,7 +13,7 @@
   margin: 3% 0% 3% 0%;
 }
 
-button {
+.btn-navbar {
   margin: 0% 1% 0% 1%;
   width: 260px;
   background-color: #2b2e4a;
@@ -29,7 +29,7 @@ button {
   transition: .2s;
 }
 
-button:hover {
+.btn-navbar:hover {
   background-color: #2b2e4a85;
   color: #e72a2a;
   padding: 15px 32px;

@@ -1,0 +1,65 @@
+.modalComponentContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1 !important;
+  padding: 40px 0px 0px 0px;
+  width: 100%;
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+
+.modalforeground {
+  z-index: 2 !important;
+  position: relative;
+  filter: blur(1.5rem);
+}
+
+.cvimg {
+  position: relative;
+  z-index: 3 !important;
+  margin: 0% 0% 0% 0%;
+  width: 400px;
+  height: 100%;
+  background: url('../../images/robertojacobocv.png') no-repeat;
+  background-size: 400px auto;
+}
+
+.btnModalContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.modal-buttons {
+  margin: 0% 1% 3% 1%;
+  width: 100px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.07);
+  transition: .2s;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-buttons:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  transition: .2s;
+}
+
+.btnModalContainer a {
+  text-decoration: none;
+}

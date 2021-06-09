@@ -4,9 +4,9 @@
   width: 100%;
   justify-content: center;
   color: #181a2e;
-  }
+}
 
-  .skills-container {
+.skills-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,65 +19,239 @@
   margin: 10px 0px 10px 50px;
   background-color: #000000bb;
   padding: 10px 0px 10px 0px;
+}
+
+.foreground {
+  filter: blur(8px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  color: whitesmoke;
+  margin: 0% 0% 0% 5%;
+}
+
+.bootstrap-container {
+  width: 210px;
+  height: 50px;
+  background: url('../../images/bootstrap.png') no-repeat;
+  background-size: 200px auto;
+  background-position: contain;
+  transition: 1s;
+  position: relative;
+}
+
+.css-container {
+  width: 50px;
+  height: 60px;
+  background: url('../../images/css.png') no-repeat;
+  background-size: 50px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.gatsby-container {
+  width: 150px;
+  height: 40px;
+  background: url('../../images/gatsbyjs.png') no-repeat;
+  background-size: 150px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.github-container {
+  width: 100px;
+  height: 60px;
+  background: url('../../images/GitHubLogo.png') no-repeat;
+  background-size: 100px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.google-cloud-container {
+  width: 220px;
+  height: 80px;
+  background: url('../../images/GoogleCloudLogo.png') no-repeat;
+  background-size: 200px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+  margin: 0px 0px 40px 20px;
+}
+
+.graphQL-container {
+  width: 200px;
+  height: 60px;
+  background: url('../../images/graphQL.png') no-repeat;
+  background-size: 200px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.html-container {
+  width: 50px;
+  height: 60px;
+  background: url('../../images/html.png') no-repeat;
+  background-size: 50px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.java-container {
+  width: 200px;
+  height: 130px;
+  background: url('../../images/javalogo.png') no-repeat;
+  background-size: 200px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.javascript-container {
+  width: 65px;
+  height: 65px;
+  background: url("../../images/javaScriptlogo.png") no-repeat;
+  background-size: 65px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+.mongodb-container {
+  width: 210px;
+  height: 85px;
+  background: url('../../images/mongodb.png') no-repeat;
+  background-size: 240px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+  margin: 0px 0px 40px 0px;
+}
+
+.node-container {
+  width: 110px;
+  height: 65px;
+  background: url('../../images/node.png') no-repeat;
+  background-size: 100px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+  margin: 0px 0px 0px 10px;
+}
+
+.react-container {
+  width: 71px;
+  height: 65px;
+  background: url('../../images/react.png') no-repeat;
+  background-size: 70px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+  margin: 0px -15px 0px 0px;
+}
+
+.sql-container {
+  width: 120px;
+  height: 70px;
+  background: url('../../images/sqlserver.png') no-repeat;
+  background-size: 120px auto;
+  position: relative;
+  background-position: contain;
+  transition: 1s;
+}
+
+@media screen and (max-width: 600px) {
+
+  h2 {
+    color: whitesmoke;
+    margin: 0% -50px 0% 5%;
+    font-size: 290%
+  }
+
+  .whatido-container {
+    display: flex;
+    margin: 1px 0px 15px 0px;
+    width: 90%;
+    color: #181a2e;
+    margin: 1px -5px 0px 3px;
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 600px;
+    margin: 0px 0px 300px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: #000000bb;
+    padding: 10px 0px 10px 0px;
+    -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.055);
+    box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.459);
   }
 
   .foreground {
     filter: blur(8px);
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 100%;
   }
 
-  h2 {
-    color: whitesmoke;
-    margin: 0% 0% 0% 5%;
-  }
-
   .bootstrap-container {
-    width: 210px;
+    width: 110px;
     height: 50px;
     background: url('../../images/bootstrap.png') no-repeat;
-    background-size: 200px auto;
+    background-size: 100px auto;
     background-position: contain;
     transition: 1s;
     position: relative;
   }
 
   .css-container {
-    width: 50px;
-    height: 60px;
+    width: 30px;
+    height: 50px;
     background: url('../../images/css.png') no-repeat;
-    background-size: 50px auto;
+    background-size: 30px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .gatsby-container {
-    width: 150px;
+    width: 90px;
     height: 40px;
     background: url('../../images/gatsbyjs.png') no-repeat;
-    background-size: 150px auto;
+    background-size: 90px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .github-container {
-    width: 100px;
+    width: 70px;
     height: 60px;
     background: url('../../images/GitHubLogo.png') no-repeat;
-    background-size: 100px auto;
+    background-size: 60px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .google-cloud-container {
-    width: 220px;
+    width: 120px;
     height: 80px;
     background: url('../../images/GoogleCloudLogo.png') no-repeat;
-    background-size: 200px auto;
+    background-size: 120px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
@@ -85,50 +259,51 @@
   }
 
   .graphQL-container {
-    width: 200px;
+    width: 100px;
     height: 60px;
     background: url('../../images/graphQL.png') no-repeat;
-    background-size: 200px auto;
+    background-size: 100px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .html-container {
-    width: 50px;
+    width: 30px;
     height: 60px;
     background: url('../../images/html.png') no-repeat;
-    background-size: 50px auto;
+    background-size: 30px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .java-container {
-    width: 200px;
-    height: 130px;
+    width: 100px;
+    height: 120px;
     background: url('../../images/javalogo.png') no-repeat;
-    background-size: 200px auto;
+    background-size: 100px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
 
   .javascript-container {
-    width: 65px;
-    height: 65px;
-    background: url("../../images/javaScriptlogo.png") no-repeat;
-    background-size: 65px auto;
+    width: 35px;
+    height: 35px;
+    background: url('../../images/javaScriptlogo.png') no-repeat;
+    background-size: 35px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
+    margin: 0px 0px 0px 10px;
   }
 
   .mongodb-container {
-    width: 210px;
-    height: 85px;
+    width: 118px;
+    height: 105px;
     background: url('../../images/mongodb.png') no-repeat;
-    background-size: 240px auto;
+    background-size: 140px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
@@ -136,10 +311,10 @@
   }
 
   .node-container {
-    width: 110px;
-    height: 65px;
+    width: 75px;
+    height: 50px;
     background: url('../../images/node.png') no-repeat;
-    background-size: 100px auto;
+    background-size: 75px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
@@ -147,198 +322,23 @@
   }
 
   .react-container {
-    width: 71px;
-    height: 65px;
+    width: 40px;
+    height: 40px;
     background: url('../../images/react.png') no-repeat;
-    background-size: 70px auto;
+    background-size: 40px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
-    margin: 0px -15px 0px 0px;
+    margin: 0px 5px 0px 0px;
   }
 
   .sql-container {
-    width: 120px;
+    width: 90px;
     height: 70px;
     background: url('../../images/sqlserver.png') no-repeat;
-    background-size: 120px auto;
+    background-size: 90px auto;
     position: relative;
     background-position: contain;
     transition: 1s;
   }
-
-  @media screen and (max-width: 600px) {
-
-    h2 {
-      color: whitesmoke;
-      margin: 0% -50px 0% 5%;
-      font-size: 290%
-    }
-
-    .whatido-container {
-      display: flex;
-      margin: 1px 0px 15px 0px;
-      width: 90%;
-        color: #181a2e;
-        margin: 1px -5px 0px 3px;
-      }
-
-      .skills-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 600px;
-        margin: 0px 0px 300px 0px;
-        padding: 10px 10px 10px 10px;
-        background-color: #000000bb;
-        padding: 10px 0px 10px 0px;
-        -webkit-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.24);
-        -moz-box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.055);
-        box-shadow: -11px 12px 5px -2px rgba(0, 0, 0, 0.459);
-        }
-
-        .foreground {
-          filter: blur(8px);
-          position: absolute;
-          width: 80%;
-          height: 100%;
-        }
-
-        .bootstrap-container {
-          width: 110px;
-          height: 50px;
-          background: url('../../images/bootstrap.png') no-repeat;
-          background-size: 100px auto;
-          background-position: contain;
-          transition: 1s;
-          position: relative;
-        }
-
-        .css-container {
-          width: 30px;
-          height: 50px;
-          background: url('../../images/css.png') no-repeat;
-          background-size: 30px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .gatsby-container {
-          width: 90px;
-          height: 40px;
-          background: url('../../images/gatsbyjs.png') no-repeat;
-          background-size: 90px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .github-container {
-          width: 70px;
-          height: 60px;
-          background: url('../../images/GitHubLogo.png') no-repeat;
-          background-size: 60px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .google-cloud-container {
-          width: 120px;
-          height: 80px;
-          background: url('../../images/GoogleCloudLogo.png') no-repeat;
-          background-size: 120px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-          margin: 0px 0px 40px 20px;
-        }
-
-        .graphQL-container {
-          width: 100px;
-          height: 60px;
-          background: url('../../images/graphQL.png') no-repeat;
-          background-size: 100px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .html-container {
-          width: 30px;
-          height: 60px;
-          background: url('../../images/html.png') no-repeat;
-          background-size: 30px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .java-container {
-          width: 100px;
-          height: 120px;
-          background: url('../../images/javalogo.png') no-repeat;
-          background-size: 100px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-        }
-
-        .javascript-container {
-          width: 35px;
-          height: 35px;
-          background: url('../../images/javaScriptlogo.png') no-repeat;
-          background-size: 35px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-          margin: 0px 0px 0px 10px;
-        }
-
-        .mongodb-container {
-          width: 118px;
-          height: 105px;
-          background: url('../../images/mongodb.png') no-repeat;
-          background-size: 140px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-          margin: 0px 0px 40px 0px;
-        }
-
-        .node-container {
-          width: 75px;
-          height: 50px;
-          background: url('../../images/node.png') no-repeat;
-          background-size: 75px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-          margin: 0px 0px 0px 10px;
-        }
-
-        .react-container {
-          width: 40px;
-          height: 40px;
-          background: url('../../images/react.png') no-repeat;
-          background-size: 40px auto;
-          position: relative;
-          background-position: contain;
-          transition: 1s;
-          margin: 0px 5px 0px 0px;
-        }
-
-      .sql-container {
-        width: 90px;
-        height: 70px;
-        background: url('../../images/sqlserver.png') no-repeat;
-        background-size: 90px auto;
-        position: relative;
-        background-position: contain;
-        transition: 1s;
-        }
-      }
+  }

@@ -3,7 +3,7 @@ import "../../styles/components/about.css";
 
 const About = () => {
   return (
-    <>
+    <section id="ABOUTUS">
     <h2>About me</h2>
     <div className="about-container">
       <div>
@@ -20,7 +20,7 @@ const About = () => {
         <div className="linea"></div>
       </div>
     </div>
-    </>
+    </section>
   );
 };
 

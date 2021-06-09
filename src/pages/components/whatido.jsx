@@ -3,6 +3,7 @@ import React from "react";
 import "../../styles/components/whatido.css";
 
 const Whatido = () => {
+
   return (
     <>
       <h2>What I Do</h2>
