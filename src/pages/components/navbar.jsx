@@ -1,19 +1,40 @@
-import React from "react";
-import "../../styles/components/navbar.css";
+import React from "react"
+import "bootstrap/dist/css/bootstrap.css"
 
 const Navbar = () => {
-
   return (
-    <div className="navbar-container">
-      <div className="list-container">
-        <button className="btn-navbar">About Me</button>
-        <button className="btn-navbar">What I Do</button>
-        <button className="btn-navbar">Resume</button>
-        <button className="btn-navbar">Portfolio</button>
-        <button className="btn-navbar">Contact</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          Home
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="#">
+              About me
+            </a>
+            <a class="nav-link" href="#">
+              What I do
+            </a>
+            <a class="nav-link" href="#">
+              Where I've worked
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  );
-};
+    </nav>
+  )
+}
 
-export default Navbar;
+export default Navbar
